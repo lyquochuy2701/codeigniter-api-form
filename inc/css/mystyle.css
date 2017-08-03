@@ -1,0 +1,158 @@
+body{
+	background: #e9ebee;
+}
+
+/* register form */
+
+#registerForm{
+	margin:0 auto;
+	max-width: 400px;
+	margin-top: 50px;
+    margin-bottom: 50px;
+}
+.registerTitle{
+	font-size: 36px;
+	font-weight: bold;
+    letter-spacing: normal;
+    text-rendering: optimizelegibility;
+    margin-bottom: 5px;
+}
+.subRegisterTitle{
+	font-weight: normal;
+    letter-spacing: normal;
+    text-rendering: optimizelegibility;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 19px;
+    line-height: 126%;
+}
+.dateWrapper{
+	margin-left:-15px;
+}
+.datethreeField {
+    display: inline-block;
+    float: left;
+    width: 33%;
+    margin:0;
+    font-size: 13px !important;
+    height: 30px !important;
+    padding: 5px !important;
+}
+
+.datethreeField {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 13px;
+    height: 30px;
+    line-height: 1.42857;
+    /*padding: 8px 10px;*/
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    /*width: 100%;*/
+}
+
+.rightDate {
+    font-size: 10px;
+    margin-left: -23px;
+    width: 163px;
+}
+.rightDate a{
+	color:#365899;
+	cursor: pointer;
+	text-decoration: none;
+}
+.buttonCreate{
+	padding: 7px 20px;
+    text-align: center;
+    min-width: 194px;
+    background: #69a74e linear-gradient(#67ae55, #578843) repeat scroll 0 0;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    box-shadow: 0 1px 1px #a4e388 inset;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 19px;
+}
+.buttonCreate:hover{
+	background: rgba(0,0,0,0) linear-gradient(#79bc64, #578843) repeat scroll 0 0;
+	text-decoration: none;
+	color: #fff;
+}
+.rulesForm{
+	color: #777;
+    font-size: 11px;
+    width: 316px;
+}
+.rulesForm a{
+	color: #365899;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.form-control {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 18px !important;
+    height: 40px !important;
+    line-height: 1.42857;
+    padding: 8px 10px !important;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+.genderWrapper{
+	margin-top: 10px;
+}
+.genderWrapper label{
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+}
+.ngaysinhWrapper #birthday{
+	color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+/* validate by jquery */
+.mainError{
+    color: #a94442;
+    font-size: 13px;
+    margin-top: 15px;
+    /*display: block;*/
+}
+.hiddenError{
+  display: none;
+}
+.showError{
+  display: block;
+}
+
+/* validate by CI */
+.errorCI {
+    color: #a94442;
+    font-size: 12px;
+    margin-top: 9px;
+}
+
+
+/* login form */
+#loginForm{
+    margin:0 auto;
+    max-width: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#loginForm h1{
+    margin-bottom: 20px;
+}
