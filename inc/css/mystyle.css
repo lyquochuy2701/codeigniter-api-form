@@ -156,3 +156,33 @@ body{
 #loginForm h1{
     margin-bottom: 20px;
 }
+
+/* facebook */
+.iconFacebook{
+    margin-top: 20px;
+}
+.myLogout{
+    background-color: #4267b2;
+    border-color: #4267b2;
+    color: #fff;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 152px;
+    border-radius: 5px;
+}
+.myLogout a{
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    margin-top: 31px;
+    text-decoration: none;
+}
+.iconGoogle{
+    margin-left: -40px;
+    margin-top: 26px;
+}
+.iconGoogle a{
+    margin-top: 26px;
+}
