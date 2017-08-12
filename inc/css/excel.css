@@ -1,0 +1,59 @@
+body {
+	background: #b6b6b6;
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+.formExcel {
+	width: 400px;
+	/*height: 300px;*/
+	background: #f0f0f0 ;
+	border: 1px solid white;
+	margin: 100px auto 0;
+	padding: 2em;
+	-moz-border-radius: 3px;
+}
+h1,h2,h3,h4,h5 {
+	margin-top: 0;
+	font-family: arial black, arial;
+	text-align: center;
+}
+input{
+	display: block;
+	margin: 0 0 1em 0;
+	width: 280px;
+	border: 5px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	padding: 1em;
+}
+#userfile{
+	margin: 0 auto;
+    text-align: center;
+    width: 200px;
+}
+input[type=submit]{
+	border: none;
+	margin-right: 1em;
+	padding: 6px;
+	text-decoration: none;
+	font-size: 12px;
+	-moz-border-radius: 4px;
+	background: #348075;
+	color: white;
+	box-shadow: 0 1px 0 white;
+	-moz-box-shadow: 0 1px 0 white;
+	-webkit-box-shadow: 0 1px 0 white;
+	width: 100px;
+	margin:0 auto;
+}
+
+input[type=submit]:hover{
+	background: #287368;
+	cursor: pointer;
+}
+.success {
+color: green;
+margin-top: 40px;
+text-align: center;
+}
